@@ -1,5 +1,6 @@
 from pydantic.errors import EmailError
 from datetime import datetime, timedelta
+from pydantic.networks import EmailStr
 from sqlalchemy import Column, Integer, String, Boolean
 from sqlalchemy.sql.sqltypes import DateTime
 from database import Base
